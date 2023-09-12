@@ -1,4 +1,4 @@
-# Documentation ERA5 and IAGOS analysis for paper #
+# Code for ERA5 and IAGOS analysis, quantile mapping, vertical distributions of contrail formation potential and overlap, climatologies, and morphology.  #
 
 This brief documentation accompanies the two manuscripts: 
 1. "Correction of temperature and relative humidity biases in ERA5 by bivariate quantile mapping: Implications for contrail classification."
@@ -13,19 +13,6 @@ ERA5 data of tempertaure, relative humidity, wind components, and cloud fraction
 Due to the distribution of IAGOS flights, the focus of the analysis is on a domain between 30N and 70N, where most of the IGAOS observations are available. The latitudes were selected similar to Petzold et al 2020.
 
 The data was downloaded with the following script: [ERA5_data_download.py](ERA5_data_download.py)
-
-The code allows to specify:
-<ul>
-  <li> time steps (1, 3, or 6h) of the data </li>
-  <li> years and months to be downloaded </li>
-  <li> pressure levels </li>
-  <li> area to download </li>
-  <li> requested products </li>
-</ul>
-
-
-
-The comments are in the code and the code should be self-explaining. 
 
 It is noted that the applied python interface and downloads from the ERA5 data base require a registration on the CDS homepage:
 [https://cds.climate.copernicus.eu/cdsapp#!/home](https://cds.climate.copernicus.eu/cdsapp#!/home).
