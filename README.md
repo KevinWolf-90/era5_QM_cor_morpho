@@ -1,4 +1,4 @@
-# Documentation ERA5 and IAGOS analysis for paper #
+# Documentation ERA5 and IAGOS analysis #
 
 This brief documentation accompanies the two manuscripts: 
 1. "Correction of temperature and relative humidity biases in ERA5 by bivariate quantile mapping: Implications for contrail classification."
