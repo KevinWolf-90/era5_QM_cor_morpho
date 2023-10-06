@@ -9,14 +9,14 @@ which are / will both be submitted to the journal Atmospheric Chemistry and Phys
 
 ## Download ERA5 data ##
 
-ERA5 data of tempertaure, relative humidity, wind components, and cloud fraction were download from the [ERA5 data catalog (https://doi.org/10.24381/cds.f17050d7)](https://doi.org/10.24381/cds.f17050d7).
+ERA5 data of temperature, relative humidity, wind components, and cloud fraction were download from the [ERA5 data catalog (https://doi.org/10.24381/cds.f17050d7)](https://doi.org/10.24381/cds.f17050d7).
 Due to the distribution of IAGOS flights, the focus of the analysis is on a domain between 30N and 70N, where most of the IGAOS observations are available. The latitudes were selected similar to Petzold et al 2020.
 
 The data was downloaded with the following script: [ERA5_data_download.py](ERA5_data_download.py)
 
 It is noted that the applied python interface and downloads from the ERA5 data base require a registration on the CDS homepage:
 [https://cds.climate.copernicus.eu/cdsapp#!/home](https://cds.climate.copernicus.eu/cdsapp#!/home).
-Please follow the instrctions given on the CDS homepage.
+Please follow the instructions given on the CDS homepage.
 
 ## Extraction of temperature, relative humidity,  wind components, and fraction of cloud cover from ERA5 ##
 
@@ -44,7 +44,7 @@ The pickled ERA5, IAGOS data, and CDFs are read with: [A03_apply_2d_correction.p
 
 Vertical distributions of contrail formation potential and vertical overlap were created with: [A06_era_3d.py](A06_era_3d.py)
 
-Climatologies of temperature, relative humidity, windpseed, and persistent contrail formation were created with: [A07_monthly_crosssections.py](A07_monthly_crosssections.py)
+Climatologies of temperature, relative humidity, wind speed, and persistent contrail formation were created with: [A07_monthly_crosssections.py](A07_monthly_crosssections.py)
 
 
 # Relevant citations #
