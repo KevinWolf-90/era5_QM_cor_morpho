@@ -1,4 +1,4 @@
-# Code for ERA5 and IAGOS analysis, quantile mapping, vertical distributions of contrail formation potential and overlap, climatologies, and morphology.  #
+# Supplement: Code for ERA5 and IAGOS analysis, and along-track contrail distribution; quantile mapping bias-correction; temporal and spatial distributions of contrail formation potential and overlap; contrail climatologies, and contrail morphology.  #
 
 This brief documentation accompanies two manuscripts: 
 1. "Correction of temperature and relative humidity biases in ERA5 by bivariate quantile mapping: Implications for contrail classification."
