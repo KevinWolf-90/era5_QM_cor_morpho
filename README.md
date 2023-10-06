@@ -5,6 +5,7 @@ This brief documentation accompanies two manuscripts:
 and
 2. "Distribution and morphology of non-persistent and persistent contrail formation areas in ERA5.". Both will be / are submitted to the journal Atmospheric Chemistry and Physics [(ACP)](https://www.atmospheric-chemistry-and-physics.net/)
 
+Please note. The code sections provided are for transparency purposes only. The code can only be used by others with modifications. Generated data is not provided here.
 
 ## Download ERA5 data ##
 
