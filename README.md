@@ -1,27 +1,26 @@
 # Code for ERA5 and IAGOS analysis, quantile mapping, vertical distributions of contrail formation potential and overlap, climatologies, and morphology.  #
 
-This brief documentation accompanies the two manuscripts: 
+This brief documentation accompanies two manuscripts: 
 1. "Correction of temperature and relative humidity biases in ERA5 by bivariate quantile mapping: Implications for contrail classification."
 and
-2. "Morphology and temporal and spatial distribution of non-persistent and persistent contrail formation areas in ERA5",
-which are / will both be submitted to the journal Atmospheric Chemistry and Physics [(ACP)](https://www.atmospheric-chemistry-and-physics.net/)
+2. "Distribution and morphology of non-persistent and persistent contrail formation areas in ERA5.". Both will be / are submitted to the journal Atmospheric Chemistry and Physics [(ACP)](https://www.atmospheric-chemistry-and-physics.net/)
 
 
 ## Download ERA5 data ##
 
-ERA5 data of temperature, relative humidity, wind components, and cloud fraction were download from the [ERA5 data catalog (https://doi.org/10.24381/cds.f17050d7)](https://doi.org/10.24381/cds.f17050d7).
-Due to the distribution of IAGOS flights, the focus of the analysis is on a domain between 30N and 70N, where most of the IGAOS observations are available. The latitudes were selected similar to Petzold et al 2020.
+ERA5 data of temperature, relative humidity, wind, and cloud fraction were download from the [ERA5 data catalog (https://doi.org/10.24381/cds.f17050d7)](https://doi.org/10.24381/cds.f17050d7).
+Due to the distribution of IAGOS flights, the focus of the analysis is on a domain between 30N and 70N, where most of the IGAOS observations are available. These latitudes were selected similar to Petzold et al 2020.
 
 The data was downloaded with the following script: [ERA5_data_download.py](ERA5_data_download.py)
 
-It is noted that the applied python interface and downloads from the ERA5 data base require a registration on the CDS homepage:
+It is noted that the utilized python interface and downloads from the ERA5 data base require a registration on the CDS homepage:
 [https://cds.climate.copernicus.eu/cdsapp#!/home](https://cds.climate.copernicus.eu/cdsapp#!/home).
-Please follow the instructions given on the CDS homepage.
+To register and to obtain an identification number please follow the instructions given on the CDS homepage.
 
 ## Extraction of temperature, relative humidity,  wind components, and fraction of cloud cover from ERA5 ##
 
 ERA5 data is extracted along IAGOS flight trajectories. Flights from the years 2015 to 2021 are used. Extraction is performed with the nearest neighbor method by selecting the temporally and spatially closest ERA5 grid point.
-The code that was used to extract data from ERA 5 with 1 hour resolution: [A01_extract__along_flightpath_1h.py](A01_extract__along_flightpath_1h.py)
+The code that was used to extract data from ERA5 with a 1 hour resolution is given here: [A01_extract__along_flightpath_1h.py](A01_extract__along_flightpath_1h.py)
 
 
 
