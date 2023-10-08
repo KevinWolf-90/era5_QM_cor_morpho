@@ -1,16 +1,20 @@
-# Supplement: Code for ERA5 and IAGOS analysis, and along-track contrail distribution; quantile mapping bias-correction; temporal and spatial distributions of contrail formation potential and overlap; contrail climatologies, and contrail morphology.  #
+# Supplement code for ERA5 and IAGOS analysis, and along-track contrail distribution; quantile mapping bias-correction; temporal and spatial distributions of contrail formation potential and overlap; contrail climatologies, and contrail morphology.  #
 
 This brief documentation accompanies two manuscripts: 
 1. "Correction of temperature and relative humidity biases in ERA5 by bivariate quantile mapping: Implications for contrail classification."
+   
 and
-2. "Distribution and morphology of non-persistent and persistent contrail formation areas in ERA5.". Both will be / are submitted to the journal Atmospheric Chemistry and Physics [(ACP)](https://www.atmospheric-chemistry-and-physics.net/)
 
-Please note. The code sections provided are for transparency purposes only. The code can only be used by others with modifications. Generated data is not provided here.
+2. "Distribution and morphology of non-persistent and persistent contrail formation areas in ERA5.". 
+
+Both will be / are submitted to the journal Atmospheric Chemistry and Physics [(ACP)](https://www.atmospheric-chemistry-and-physics.net/)
+
+Please note. The provided code sections are for traceability purposes only. The code can only be used by others with major modifications. Generated data is not provided here.
 
 ## Download ERA5 data ##
 
-ERA5 data of temperature, relative humidity, wind, and cloud fraction were download from the [ERA5 data catalog (https://doi.org/10.24381/cds.f17050d7)](https://doi.org/10.24381/cds.f17050d7).
-Due to the distribution of IAGOS flights, the focus of the analysis is on a domain between 30N and 70N, where most of the IGAOS observations are available. These latitudes were selected similar to Petzold et al 2020.
+ERA5 data of temperature, relative humidity, wind speed, and cloud fraction were download from the [ERA5 data catalog (https://doi.org/10.24381/cds.f17050d7)](https://doi.org/10.24381/cds.f17050d7).
+Due to the distribution of IAGOS flights, the focus of the analysis is on a domain between 30&deg;N and 70&deg;N, where most of the IGAOS observations are available. These latitudes were selected similar to Petzold et al 2020.
 
 The data was downloaded with the following script: [ERA5_data_download.py](ERA5_data_download.py)
 
